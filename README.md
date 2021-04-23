@@ -4,7 +4,7 @@
 
 ```
 whichMetric := "CapRealUSD"
-sinceWhen := yesterdaySimpleDate() // "" will start with earliest possible datapoint
+sinceWhen := YesterdaySimpleDate() // "" will start with earliest possible datapoint
 UntilWhen := ""                    // most recent datapoint
 
 opts := CMAPIListOptions{Metrics: whichMetric, Start: sinceWhen, End: UntilWhen}
