@@ -2,7 +2,7 @@
 
 #### Simple code example
 
-```
+```golang
 whichMetric := "CapRealUSD"
 sinceWhen := YesterdaySimpleDate() // "" will start with earliest possible datapoint
 UntilWhen := ""                    // most recent datapoint
