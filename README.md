@@ -24,9 +24,9 @@ println(res)
 // latest CapRealUSD : 357839722701.057414591381506310739636 @ 2021-04-22T00:00:00.000Z
 ```
 
-#### PSA
+#### Public Safety Announcement
 
 At this particular moment, only the community client is implemented. 
 
 This implementation uses V3 of CM API. Unfortunately CM's V4 API introduced a breaking change that 
-maked parsing the json response quite difficult. 
+made parsing the json response quite difficult. 
